@@ -1,0 +1,21 @@
+
+
+
+  <form [formGroup]="searchformGroup" (ngSubmit)="handleAddProduit()">
+
+  <div class="form-group">
+    <label >Nom du produit : </label>
+    <input type="text" formControlName="nomProduit" class="from-control">
+  </div>
+    <div class="form-group">
+      <label >Prix : </label>
+      <input type="text" formControlName="prix" class="from-control">
+    </div>
+    <div class="form-group">
+      <label >Disponible : </label>
+      <input type="checkbox" formControlName="nomProduit" class="from-control">
+    </div>
+
+    <button class="btn btn-info"><i class="bi bi-search"></i></button>
+
+</form>
